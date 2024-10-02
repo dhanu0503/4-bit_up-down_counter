@@ -1,4 +1,4 @@
-# Counter_4bit_up-down
+# Design of 4-bit up-down Counter using nclaunch Simulator in Cadence software 
 
 ## Aim:
 
