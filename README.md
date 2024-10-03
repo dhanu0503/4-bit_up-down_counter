@@ -207,7 +207,8 @@ It contains statements that map logical library names to their physical director
 5.	It also establishes net connectivity and prepares all of this for simulation
 
 ![WhatsApp Image 2024-10-01 at 14 25 29_64fd8679](https://github.com/user-attachments/assets/846eb109-5872-4f9f-8f4f-52b825b5f563)
-### Fig 6 : Elaboration database in worklib
+
+### Fig 7 : Elaboration database in worklib
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
