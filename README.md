@@ -40,9 +40,9 @@ Functional Simulation:
 -	source /cadence/install/cshrc (mention the path of the tools) 
       (The path of cshrc could vary depending on the installation destination)
       
--	After this you can see the window like below 
+-	After this you can see the window like below
 
-![image](https://github.com/user-attachments/assets/f6b7a2d3-e5eb-4920-b04f-5d7f0661de6d)
+![WhatsApp Image 2024-10-03 at 17 45 10_0df86994](https://github.com/user-attachments/assets/c4decb29-a0f8-45c0-b330-a11de9c4dc6b)
 
 ### Fig 2 : Invoke the Cadence Environment
 
@@ -126,8 +126,8 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option
 
+![WhatsApp Image 2024-10-03 at 17 45 10_8a7a7052](https://github.com/user-attachments/assets/222a7dcb-ac2f-45ac-bead-5fe217817725)
 
-![image](https://github.com/user-attachments/assets/5af362ed-4ac3-4d66-a707-cf20cc12ceee)
 
 ### Fig 4 : cds.lib file Creation
 
@@ -149,11 +149,6 @@ Click the cds.lib file and save the file by clicking on Save option
 -	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 -	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
-
-
-![WhatsApp Image 2024-10-01 at 14 24 51_2013a797](https://github.com/user-attachments/assets/dbf70536-5796-4743-8fbe-699b5c6d04c9)
-
-### Fig 6 : Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -180,9 +175,9 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
  -- Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 
-![WhatsApp Image 2024-10-01 at 14 25 29_64fd8679](https://github.com/user-attachments/assets/846eb109-5872-4f9f-8f4f-52b825b5f563)
+![WhatsApp Image 2024-10-01 at 14 24 51_2013a797](https://github.com/user-attachments/assets/dbf70536-5796-4743-8fbe-699b5c6d04c9)
 
-### Fig 7 : Compiled database in worklib
+### Fig 6 : Compiled database in worklib
 
 -	After compilation it will come under worklib you can see in right side window
 
@@ -210,6 +205,9 @@ It contains statements that map logical library names to their physical director
 4.	Checks for hierarchical names conflicts
   
 5.	It also establishes net connectivity and prepares all of this for simulation
+
+![WhatsApp Image 2024-10-01 at 14 25 29_64fd8679](https://github.com/user-attachments/assets/846eb109-5872-4f9f-8f4f-52b825b5f563)
+### Fig 6 : Elaboration database in worklib
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
