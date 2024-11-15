@@ -174,7 +174,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
-### Step 1: 
+#### Step 1: 
 #### Compilation:– 
  &emsp; Process to check the correct Verilog language syntax and usage 
 
@@ -210,7 +210,7 @@ It contains statements that map logical library names to their physical director
 
 <br>
 
-### Step 2: 
+#### Step 2: 
 #### Elaboration:– 
  &emsp;To check the port connections in hierarchical design 
 
@@ -239,7 +239,7 @@ It contains statements that map logical library names to their physical director
 <br>
 <br>
 
-### Step 3: 
+#### Step 3: 
 
 #### Simulation:– 
 &emsp;Simulate with the given test vectors over a period of time to observe the output behaviour. 
