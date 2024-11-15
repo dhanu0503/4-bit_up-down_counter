@@ -26,7 +26,7 @@ The output is Counter which is 4 bit in size.
  
 ![image](https://github.com/user-attachments/assets/efe1095e-989e-4005-b53b-e9dc50d4025c)
 
-#### &emsp;&emsp;&emsp;&emsp;Fig 1 : 4 Bit Up/Down Counter
+#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 1 : 4 Bit Up/Down Counter
 
 ### Creating a Work space :
 
@@ -44,7 +44,7 @@ Functional Simulation:
 
 ![WhatsApp Image 2024-10-03 at 17 45 10_0df86994](https://github.com/user-attachments/assets/c4decb29-a0f8-45c0-b330-a11de9c4dc6b)
 
-#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 2 : Invoke the Cadence Environment
+#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 2 : Invoke the Cadence Environment
 
 
 ### Creating Source Code:
