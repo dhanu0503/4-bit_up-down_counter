@@ -28,6 +28,9 @@ The output is Counter which is 4 bit in size.
 
 #### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 1 : 4 Bit Up/Down Counter
 
+<br>
+<br>
+
 ### Creating a Work space :
 
 -	Create a folder in your name (Note: Give folder name without any space) and Create a new sub-Directory name it as Exp2 or counter_design for the Design and open a terminal from the Sub-Directory.
@@ -89,8 +92,7 @@ Functional Simulation:
 
 -	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
-#### Test-bench code for 4-Bit Up-Down Counter:
-		
+#### Test-bench code for 4-Bit Up-Down Counter:	
     `timescale 1ns / 1ns
     module counter_test;
     reg clk,rst,m;
@@ -108,11 +110,8 @@ Functional Simulation:
     end
     
     counter counter1 (clk,m,rst, count);
-    
     always #5 clk=~clk;
-     
     initial $monitor("Time=%t rst=%b clk=%b count=%b" , $time,rst,clk,count);
-    
     initial
     #320 $finish;
     
@@ -162,7 +161,7 @@ To perform the function simulation, the following three steps are involved Compi
 
 ### Step 1: 
 #### Compilation:– 
-    Process to check the correct Verilog language syntax and usage 
+ &emsp; Process to check the correct Verilog language syntax and usage 
 
 -	Inputs: Supplied are Verilog design and test bench codes 
 
@@ -170,11 +169,11 @@ To perform the function simulation, the following three steps are involved Compi
 
 #### Steps for compilation:
 
-1. Create work/library directory (most of the latest simulation tools creates automatically)
+ &emsp;1. Create work/library directory (most of the latest simulation tools creates automatically)
   
-2. Map the work to library created (most of the latest simulation tools creates automatically)
+ &emsp;2. Map the work to library created (most of the latest simulation tools creates automatically)
   
-3. Run the compile command with compile options
+ &emsp;3. Run the compile command with compile options
 
 _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
