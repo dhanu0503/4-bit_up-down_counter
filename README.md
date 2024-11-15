@@ -181,6 +181,7 @@ To perform the function simulation, the following three steps are involved Compi
 -	Inputs: Supplied are Verilog design and test bench codes 
 
 -	Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
+<br>
 
 #### Steps for compilation:
 
@@ -236,6 +237,7 @@ It contains statements that map logical library names to their physical director
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+<br>
 <br>
 <br>
 
