@@ -209,7 +209,7 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 -	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
-<br>
+
 
 #### Step 2: 
 #### Elaboration:– 
@@ -237,7 +237,6 @@ It contains statements that map logical library names to their physical director
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-<br>
 <br>
 <br>
 
