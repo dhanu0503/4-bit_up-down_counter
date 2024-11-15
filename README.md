@@ -239,6 +239,7 @@ It contains statements that map logical library names to their physical director
 
 <br>
 <br>
+<br>
 
 #### Step 3: 
 
@@ -262,6 +263,9 @@ It contains statements that map logical library names to their physical director
 ![WhatsApp Image 2024-10-01 at 14 27 10_4138c344](https://github.com/user-attachments/assets/874bd3c6-5cce-4569-bfc0-9de33ea7c79f)
 
 #### <p align="center"> Fig 9 : Simulation Waveform Window
+
+### Result:
+
 
 
 ![WhatsApp Image 2024-10-01 at 14 28 09_209b611b](https://github.com/user-attachments/assets/386d3f3f-7b2d-4d66-9a68-a8dc3ad13fe4)
