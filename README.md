@@ -66,6 +66,7 @@ Functional Simulation:
 <br>
 <br>
 <br>
+<br>
 
 ### Program:
 
@@ -91,6 +92,10 @@ Functional Simulation:
 ### Creating Test bench:
 
 -	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -137,14 +142,14 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 #### <p align="center">  Fig 3 : Setting Multi-step simulation
 
-Select Multiple Step and then select “Create cds.lib File” as shown in below figure
+- Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
-Click the cds.lib file and save the file by clicking on Save option
+- Click the cds.lib file and save the file by clicking on Save option
 
 ![WhatsApp Image 2024-10-03 at 17 45 10_8a7a7052](https://github.com/user-attachments/assets/222a7dcb-ac2f-45ac-bead-5fe217817725)
 
 
-#### &emsp;&emsp;&emsp;&emsp;Fig 4 : cds.lib file Creation
+#### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 4 : cds.lib file Creation
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -155,7 +160,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![image](https://github.com/user-attachments/assets/81bb443b-238f-4a10-88a2-0a5d0bf1c850)
 
-#### &emsp;&emsp;&emsp;Fig 5 : Selection of Don’t include any libraries
+#### <p align="center"> Fig 5 : Selection of Don’t include any libraries
 
 -	A Click “OK” in the “nclaunch: Open Design Directory” window
 
@@ -203,7 +208,7 @@ It contains statements that map logical library names to their physical director
 
 ### Step 2: 
 #### Elaboration:– 
-    To check the port connections in hierarchical design 
+ &emsp;To check the port connections in hierarchical design 
 
 -	Inputs: Top level design / test bench Verilog codes
 
