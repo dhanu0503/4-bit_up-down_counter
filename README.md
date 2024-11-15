@@ -1,4 +1,4 @@
-## Design of 4-bit up-down Counter using nclaunch Simulator in Cadence software 
+## Ex No:02 Design of 4-bit up-down Counter using nclaunch Simulator in Cadence-EDA-Tools
 
 ### Aim:
 
@@ -92,6 +92,8 @@ Functional Simulation:
 ### Creating Test bench:
 
 -	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -206,6 +208,8 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 -	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
+<br>
+
 ### Step 2: 
 #### Elaboration:– 
  &emsp;To check the port connections in hierarchical design 
@@ -232,10 +236,13 @@ It contains statements that map logical library names to their physical director
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+<br>
+<br>
+
 ### Step 3: 
 
 #### Simulation:– 
-    Simulate with the given test vectors over a period of time to observe the output behaviour. 
+&emsp;Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 -	Inputs: Compiled and Elaborated top level module name 
 
