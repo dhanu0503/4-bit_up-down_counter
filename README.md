@@ -26,7 +26,7 @@ The output is Counter which is 4 bit in size.
  
 ![image](https://github.com/user-attachments/assets/efe1095e-989e-4005-b53b-e9dc50d4025c)
 
-### Fig 1 : 4 Bit Up/Down Counter
+### &emsp;&emsp;&emsp;&emsp;Fig 1 : 4 Bit Up/Down Counter
 
 ## Creating a Work space :
 
@@ -44,7 +44,7 @@ Functional Simulation:
 
 ![WhatsApp Image 2024-10-03 at 17 45 10_0df86994](https://github.com/user-attachments/assets/c4decb29-a0f8-45c0-b330-a11de9c4dc6b)
 
-### Fig 2 : Invoke the Cadence Environment
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig 2 : Invoke the Cadence Environment
 
 
 ## Creating Source Code:
@@ -120,7 +120,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ![WhatsApp Image 2024-10-02 at 15 28 05_9a790f8c](https://github.com/user-attachments/assets/479d7e32-84bc-4db1-a5cb-3e4ae2e7d4db)
 
-### Fig 3 : Setting Multi-step simulation
+### <p align="center">  Fig 3 : Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -129,7 +129,7 @@ Click the cds.lib file and save the file by clicking on Save option
 ![WhatsApp Image 2024-10-03 at 17 45 10_8a7a7052](https://github.com/user-attachments/assets/222a7dcb-ac2f-45ac-bead-5fe217817725)
 
 
-### Fig 4 : cds.lib file Creation
+### &emsp;&emsp;&emsp;&emsp;Fig 4 : cds.lib file Creation
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -140,7 +140,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![image](https://github.com/user-attachments/assets/81bb443b-238f-4a10-88a2-0a5d0bf1c850)
 
-### Fig 5 : Selection of Don’t include any libraries
+### &emsp;&emsp;&emsp;Fig 5 : Selection of Don’t include any libraries
 
 -	A Click “OK” in the “nclaunch: Open Design Directory” window
 
@@ -177,7 +177,7 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
 ![WhatsApp Image 2024-10-01 at 14 24 51_2013a797](https://github.com/user-attachments/assets/dbf70536-5796-4743-8fbe-699b5c6d04c9)
 
-### Fig 6 : Compiled database in worklib
+### <p align="center">  Fig 6 : Compiled database in worklib
 
 -	After compilation it will come under worklib you can see in right side window
 
@@ -208,7 +208,7 @@ It contains statements that map logical library names to their physical director
 
 ![WhatsApp Image 2024-10-01 at 14 25 29_64fd8679](https://github.com/user-attachments/assets/846eb109-5872-4f9f-8f4f-52b825b5f563)
 
-### Fig 7 : Elaboration database in worklib
+ ### <p align="center"> Fig 7 : Elaboration database in worklib
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
@@ -228,15 +228,15 @@ It contains statements that map logical library names to their physical director
 
 ![WhatsApp Image 2024-10-01 at 14 26 30_b74f5929](https://github.com/user-attachments/assets/a69251bb-9c8c-4e37-8948-ff93ba5a1f7e)
 
-### Fig 8 : Design Browser window for simulation
+ ### <p align="center">  Fig 8 : Design Browser window for simulation
 
 
 ![WhatsApp Image 2024-10-01 at 14 27 10_4138c344](https://github.com/user-attachments/assets/874bd3c6-5cce-4569-bfc0-9de33ea7c79f)
 
-### Fig 9 : Simulation Waveform Window
+### <p align="center"> Fig 9 : Simulation Waveform Window
 
 
 ![WhatsApp Image 2024-10-01 at 14 28 09_209b611b](https://github.com/user-attachments/assets/386d3f3f-7b2d-4d66-9a68-a8dc3ad13fe4)
 
-### Fig 10 : Simulation Waveform Window
+ ### <p align="center"> Fig 10 : Simulation Waveform Window
 
