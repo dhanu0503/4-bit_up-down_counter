@@ -221,15 +221,15 @@ It contains statements that map logical library names to their physical director
 
 -	Steps for elaboration – Run the elaboration command with elaborate options 
 
-1.	It builds the module hierarchy
+&emsp;&emsp;&emsp;1.	It builds the module hierarchy
 	
-2.	Binds modules to module instances
+&emsp;&emsp;&emsp;2.	Binds modules to module instances
   
-3.	Computes parameter values
+&emsp;&emsp;&emsp;3.	Computes parameter values
   
-4.	Checks for hierarchical names conflicts
+&emsp;&emsp;&emsp;4.	Checks for hierarchical names conflicts
   
-5.	It also establishes net connectivity and prepares all of this for simulation
+&emsp;&emsp;&emsp;5.	It also establishes net connectivity and prepares all of this for simulation
 
 ![WhatsApp Image 2024-10-01 at 14 25 29_64fd8679](https://github.com/user-attachments/assets/846eb109-5872-4f9f-8f4f-52b825b5f563)
 
@@ -268,6 +268,8 @@ It contains statements that map logical library names to their physical director
 ![WhatsApp Image 2024-10-01 at 14 28 09_209b611b](https://github.com/user-attachments/assets/386d3f3f-7b2d-4d66-9a68-a8dc3ad13fe4)
 
  #### <p align="center"> Fig 10 : Simulation Waveform Window
+
+<br>
 
 ### Result:
 
